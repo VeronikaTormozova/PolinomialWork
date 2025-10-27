@@ -6,28 +6,7 @@ namespace PolinomialTest
 {
     [TestClass]
     public class PolinomialTest
-    {/*
-        [TestMethod]
-        public void Constructor_WithNullArray_ThrowsArgumentNullException()
-        {
-            Assert.ThrowsException<ArgumentException>(() => new Polynomial(2, null));
-        }
-
-        [TestMethod]
-        public void Constructor_WithNegativeDegree_ThrowsArgumentOutOfRangeException()
-        {
-            // Arrange, Act & Assert
-            Assert.ThrowsException<ArgumentOutOfRangeException>(() =>
-                new Polynomial(-2, new double[] { 1, 2 }));
-        }
-        */
-        /*[TestMethod()]
-        public void SetDegree_SetDegreeWithWrongValue_ThrowsArgumentOutOfRangeException()
-        {
-            const double DEGREE_OF_POLINOMIAL = -1;
-            IPolynomial polinomial = new Polynomial();
-            Assert.ThrowsException<ArgumentOutOfRangeException>(() => polinomial.Degree = DEGREE_OF_POLINOMIAL);
-        }*/
+    {
         [TestMethod]
         // Перевіряє коректність додавання двох поліномів однакової розмірності.
         public void Add_SameDegreePolynomials_ReturnsSumPolynomial()
